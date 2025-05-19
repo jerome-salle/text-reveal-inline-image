@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Reveal with Inline Image</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <section>
+    <p>Scroll Down</p>
+  </section>
+
+  <div class="wrapper">
+    <h1 class="reveal-text">
+      Lorem, ipsum dolor sit <br>amet <span class="window">
+        <img src="images/icarus.webp" alt="Icarus" />
+      </span>
+      consectetur adipisicing elit
+      Sint veniam
+      <span class="window"><img src="images/fallen-angel.webp" alt="fallen angel"></span> Jerome Salle <br>saepe natus
+      <span class="window"><img src="images/sun-god.webp" alt="Sun of god"></span> fuga debitis repellendus
+      <span class="window"><img src="images/gods-hand.webp" alt="God's hand"></span> 
+      Quae Lorem ipsum
+    </h1>
+  </div> 
+
+  <section></section>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script> 
+  <script src="script.js"></script>
+</body>
+</html>
